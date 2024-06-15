@@ -57,11 +57,11 @@
                 <version>${azure.functions.maven.plugin.version}</version>
                 <configuration>
                     <!-- function app name -->
-                    <appName>$mydemofunction</appName>
+                    <appName>mydemofunction</appName>
                     <!-- function app resource group -->
                     <resourceGroup>mydemofunction-rg</resourceGroup>
                     <!-- function app service plan name -->
-                    <appServicePlanName>Consumption plan</appServicePlanName>
+                    <appServicePlanName>Consumption</appServicePlanName>
                     <!-- function app region-->
                     <!-- refers https://github.com/microsoft/azure-maven-plugins/wiki/Azure-Functions:-Configuration-Details#supported-regions for all valid values -->
                     <region>Australia East </region>

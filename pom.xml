@@ -57,7 +57,7 @@
                 <version>${azure.functions.maven.plugin.version}</version>
                 <configuration>
                     <!-- function app name -->
-                    <appName>${mydemofunction}</appName>
+                    <appName>$mydemofunction</appName>
                     <!-- function app resource group -->
                     <resourceGroup>mydemofunction-rg</resourceGroup>
                     <!-- function app service plan name -->
